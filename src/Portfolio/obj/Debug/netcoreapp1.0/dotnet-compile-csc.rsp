@@ -206,7 +206,9 @@
 -resource:"C:\Users\Green\Desktop\Portfolio\src\Portfolio\obj\Debug\netcoreapp1.0\Portfoliodotnet-compile.deps.json",Portfolio.deps.json
 "C:\Users\Green\Desktop\Portfolio\src\Portfolio\Program.cs"
 "C:\Users\Green\Desktop\Portfolio\src\Portfolio\Startup.cs"
+"C:\Users\Green\Desktop\Portfolio\src\Portfolio\Controllers\AboutController.cs"
 "C:\Users\Green\Desktop\Portfolio\src\Portfolio\Controllers\AccountController.cs"
+"C:\Users\Green\Desktop\Portfolio\src\Portfolio\Controllers\PortfolioController.cs"
 "C:\Users\Green\Desktop\Portfolio\src\Portfolio\Migrations\20170512205849_Initial.cs"
 "C:\Users\Green\Desktop\Portfolio\src\Portfolio\Migrations\20170512205849_Initial.Designer.cs"
 "C:\Users\Green\Desktop\Portfolio\src\Portfolio\Migrations\PortfolioContextModelSnapshot.cs"
