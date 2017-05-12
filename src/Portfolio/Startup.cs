@@ -30,10 +30,10 @@ namespace Portfolio
         {
             services.AddMvc();
             services.AddEntityFramework()
-                .AddDbContext<MLBContext>(options =>
+                .AddDbContext<PortfolioContext>(options =>
                     options.UseSqlServer(Configuration["ConnectionStrings:DefaultConnection"]));
             services.AddIdentity<User, IdentityRole>()
-                .AddEntityFrameworkStores<MLBContext>()
+                .AddEntityFrameworkStores<PortfolioContext>()
                 .AddDefaultTokenProviders();
         }
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
