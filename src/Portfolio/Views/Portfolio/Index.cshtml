@@ -3,5 +3,14 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@model IEnumerable<Portfolio.Models.Project>
 
 <h1>Here are some of my best projects.</h1>
+
+@foreach (var stars in Model)
+{
+    <div class="row projects">
+        <h3>@stars.name</h3>
+        <h5><a href=@stars.html_url>@stars.html_url</a></h5>
+    </div>
+}

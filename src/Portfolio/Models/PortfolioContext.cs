@@ -14,7 +14,7 @@ namespace Portfolio.Models
         }
 
         public virtual DbSet<About> About { get; set; }
-        public virtual DbSet<Portfolio> Portfolio { get; set; }
+        public virtual DbSet<Project> Portfolio { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder options)
         {
             options.UseSqlServer(@"Server=(localdb)\MSSQLLocalDB;Database=Portfolio;integrated security=True;");

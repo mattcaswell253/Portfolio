@@ -56,12 +56,14 @@ namespace Portfolio.Migrations
                 name: "Portfolio",
                 columns: table => new
                 {
-                    Body = table.Column<string>(nullable: false),
-                    User = table.Column<string>(nullable: true)
+                    id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    html_url = table.Column<string>(nullable: true),
+                    name = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Portfolio", x => x.Body);
+                    table.PrimaryKey("PK_Portfolio", x => x.id);
                 });
 
             migrationBuilder.CreateTable(

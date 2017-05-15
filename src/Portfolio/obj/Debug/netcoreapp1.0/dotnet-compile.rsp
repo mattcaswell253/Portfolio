@@ -213,12 +213,12 @@ C:\Users\Green\Desktop\Portfolio\src\Portfolio\Startup.cs
 C:\Users\Green\Desktop\Portfolio\src\Portfolio\Controllers\AboutController.cs
 C:\Users\Green\Desktop\Portfolio\src\Portfolio\Controllers\AccountController.cs
 C:\Users\Green\Desktop\Portfolio\src\Portfolio\Controllers\PortfolioController.cs
-C:\Users\Green\Desktop\Portfolio\src\Portfolio\Migrations\20170512205849_Initial.cs
-C:\Users\Green\Desktop\Portfolio\src\Portfolio\Migrations\20170512205849_Initial.Designer.cs
+C:\Users\Green\Desktop\Portfolio\src\Portfolio\Migrations\20170515175618_Initial.cs
+C:\Users\Green\Desktop\Portfolio\src\Portfolio\Migrations\20170515175618_Initial.Designer.cs
 C:\Users\Green\Desktop\Portfolio\src\Portfolio\Migrations\PortfolioContextModelSnapshot.cs
 C:\Users\Green\Desktop\Portfolio\src\Portfolio\Models\About.cs
-C:\Users\Green\Desktop\Portfolio\src\Portfolio\Models\Portfolio.cs
 C:\Users\Green\Desktop\Portfolio\src\Portfolio\Models\PortfolioContext.cs
+C:\Users\Green\Desktop\Portfolio\src\Portfolio\Models\Project.cs
 C:\Users\Green\Desktop\Portfolio\src\Portfolio\Models\User.cs
 C:\Users\Green\Desktop\Portfolio\src\Portfolio\ViewModels\LoginViewModel.cs
 C:\Users\Green\Desktop\Portfolio\src\Portfolio\ViewModels\RegisterViewModel.cs

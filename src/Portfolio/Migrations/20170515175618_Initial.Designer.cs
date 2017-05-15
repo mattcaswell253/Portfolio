@@ -8,7 +8,7 @@ using Portfolio.Models;
 namespace Portfolio.Migrations
 {
     [DbContext(typeof(PortfolioContext))]
-    [Migration("20170512205849_Initial")]
+    [Migration("20170515175618_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -140,13 +140,16 @@ namespace Portfolio.Migrations
                     b.ToTable("About");
                 });
 
-            modelBuilder.Entity("Portfolio.Models.Portfolio", b =>
+            modelBuilder.Entity("Portfolio.Models.Project", b =>
                 {
-                    b.Property<string>("Body");
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd();
 
-                    b.Property<string>("User");
+                    b.Property<string>("html_url");
 
-                    b.HasKey("Body");
+                    b.Property<string>("name");
+
+                    b.HasKey("id");
 
                     b.ToTable("Portfolio");
                 });

@@ -139,13 +139,16 @@ namespace Portfolio.Migrations
                     b.ToTable("About");
                 });
 
-            modelBuilder.Entity("Portfolio.Models.Portfolio", b =>
+            modelBuilder.Entity("Portfolio.Models.Project", b =>
                 {
-                    b.Property<string>("Body");
+                    b.Property<int>("id")
+                        .ValueGeneratedOnAdd();
 
-                    b.Property<string>("User");
+                    b.Property<string>("html_url");
 
-                    b.HasKey("Body");
+                    b.Property<string>("name");
+
+                    b.HasKey("id");
 
                     b.ToTable("Portfolio");
                 });
